@@ -6,6 +6,6 @@ app.use(express.json())
 
 const CepController = require("./CepController")
 
-app.get('/cep', CepController.create)   
+app.get('/cep', CepController.index)   
 
 app.listen(3333)
