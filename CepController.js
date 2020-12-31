@@ -1,7 +1,7 @@
 const axios  = require('axios')
 
 module.exports = {
-  async create(request, response) {
+  async index(request, response) {
 
     const { cep } = request.body;
 
